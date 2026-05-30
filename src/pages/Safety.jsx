@@ -4,12 +4,16 @@ function Safety() {
   return (
     <main className="safety-page">
       <section className="safety-hero">
-        <h1>Marketplace Safety</h1>
-        <p>
-          Our college marketplace is designed to help students buy, sell, and
-          exchange items safely within the campus community.
-        </p>
-      </section>
+  <div className="hero-overlay"></div>
+
+  <div className="hero-content">
+    <h1>Marketplace Safety</h1>
+    <p>
+      Our college marketplace is designed to help students buy, sell, and
+      exchange items safely within the campus community.
+    </p>
+  </div>
+</section>
 
       <section className="safety-section">
         <h2>Meet in Safe Public Places</h2>
