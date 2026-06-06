@@ -1,10 +1,13 @@
-function Home() {
+import Hero from "../components/Hero";
+import CategorySection from "../components/CategorySection";
+import FeaturedItems from "../components/FeaturedItems";
+
+export default function Home() {
   return (
-    <main>
-      <h1>Home Page</h1>
-      <p>Robin will build the homepage here.</p>
-    </main>
+    <div style={{ fontFamily: "sans-serif", minHeight: "100vh", background: "#fff" }}>
+      <Hero />
+      <CategorySection />
+      <FeaturedItems />
+    </div>
   );
 }
-
-export default Home;
