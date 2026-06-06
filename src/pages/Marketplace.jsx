@@ -1,4 +1,5 @@
 import { useState, useMemo } from "react";
+import ItemCard from "../components/ItemCard";
 import items from "../data/itemsData";
 
 const CATEGORIES = ["All", "Electronics", "Clothes", "Books", "Furniture", "Shoes", "Sports", "Accessories", "School Supplies"];
