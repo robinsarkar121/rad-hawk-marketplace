@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-      <h2>Rad Hawk</h2>
+      <Link to="/" style={{ textDecoration: "none", color: "inherit" }}>
+        <h2>Rad Hawk</h2>
+      </Link>
 
       <ul>
         <li><Link to="/">Home</Link></li>
