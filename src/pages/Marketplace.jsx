@@ -52,7 +52,7 @@ export default function Marketplace() {
   };
 
   return (
-    <main style={{ padding: "40px 48px", maxWidth: "1400px", margin: "0 auto" }}>
+    <main style={{ padding: "40px 48px", maxWidth: "1200px", margin: "0 auto" }}>
 
       {/* ── Page header ── */}
       <div style={{ marginBottom: "32px" }}>
@@ -295,14 +295,16 @@ export default function Marketplace() {
               </button>
             </div>
           ) : (
-            <div style={{
-              display:               "grid",
-              gridTemplateColumns:   "repeat(auto-fill, minmax(190px, 1fr))",
-              gap:                   "18px",
-            }}>
-              {filtered.map(item => (
-                <ItemCard key={item.id} item={item} />
-              ))}
+            <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(3, minmax(220px, 1fr))",
+            gap: "22px",
+          }}
+          >
+            {filtered.map((item) => (
+              <ItemCard key={item.id} item={item} />
+          ))}
             </div>
           )}
         </div>

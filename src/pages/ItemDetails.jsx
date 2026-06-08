@@ -77,7 +77,15 @@ export default function ItemDetails() {
           minHeight: "400px",
           borderRight: "2px solid #f0f0f0",
         }}>
-          {item.emoji}
+          <img
+  src={item.image}
+  alt={item.title}
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover"
+  }}
+/>
         </div>
 
         {/* Right — details */}
