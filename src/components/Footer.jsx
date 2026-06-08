@@ -90,7 +90,6 @@ export default function Footer() {
               {[
                 { label: "Home", href: "/" },
                 { label: "Marketplace", href: "/marketplace" },
-                { label: "Categories", href: "/marketplace" },
                 { label: "Safety", href: "/safety" },
                 { label: "Support", href: "/support" },
               ].map(link => (
