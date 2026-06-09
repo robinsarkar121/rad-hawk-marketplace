@@ -40,6 +40,13 @@ export default function ItemDetails() {
   const condStyle = CONDITION_COLORS[item.condition] ?? { bg: "#f5f5f5", text: "#666" };
 
   return (
+<<<<<<< HEAD
+    <main>
+      <a href="./ContactSeller.jsx">Contact Seller</a>
+      <h1>Item Details Page</h1>
+      <p>Mauricio will build the item details here.</p>
+
+=======
     <main style={{ padding: "48px 48px", maxWidth: "1100px", margin: "0 auto" }}>
 
       {/* Breadcrumb */}
@@ -187,6 +194,7 @@ export default function ItemDetails() {
 
         </div>
       </div>
+>>>>>>> origin/main
     </main>
   );
 }

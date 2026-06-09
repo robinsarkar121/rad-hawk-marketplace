@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 import { useState, useMemo } from "react";
 import ItemCard from "../components/ItemCard";
 import items from "../data/itemsData";
@@ -369,3 +371,4 @@ const priceInputStyle = {
   outline:      "none",
   fontFamily:   "Georgia, serif",
 };
+>>>>>>> origin/main

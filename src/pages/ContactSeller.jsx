@@ -64,7 +64,7 @@ function ContactSeller() {
               marginBottom: "5px",
             }}
           >
-            Cristina
+            John
           </h3>
 
           <p
