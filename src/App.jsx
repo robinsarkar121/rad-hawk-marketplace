@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import CustomCursor from "./components/CustomCursor";
 
 import Home from "./pages/Home";
 import Marketplace from "./pages/Marketplace";
@@ -14,6 +15,7 @@ import "./App.css";
 function App() {
   return (
     <>
+      <CustomCursor/>
       <Navbar />
 
       <Routes>
